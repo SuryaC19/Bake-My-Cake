@@ -1,0 +1,47 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-content {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+#product-detail {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding : 0 10px;
+}
+
+#product-detail img {
+    width: 90%;
+}
+#product-detail p {
+    width: 90%;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#product-request {
+    width: 35%;
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
+}
+
+#per-product {
+    font-size: small;
+}
+.address input{
+    margin-left: 20px;
+}
+.btn-submit{
+    background-color: darkgray;
+    width: fit-content;
+}

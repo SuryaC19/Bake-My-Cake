@@ -1,0 +1,10 @@
+<h2>LOGIN PAGE</h2>
+<div id="login-form">
+    <h3><strong>LOGIN (Admin Only)</strong></h3>
+    <mat-form-field >
+        <mat-label>Enter Admin code here</mat-label>
+        <input matInput name="adminCode" type="password" [(ngModel)]="adminCode" placeholder="Admin Code" required>
+    </mat-form-field><br>
+    <button class="submit" mat-raised-button color="primary" (click)="validateAdminCode()">Submit</button>
+    <h3>For redirecting to our Home Page, <a routerLink="">click here</a></h3>
+</div>

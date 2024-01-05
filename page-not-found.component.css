@@ -1,0 +1,12 @@
+h1{
+    font-size: xx-large;
+    margin-top: 20px;
+}
+.icon{
+    color: black;
+}
+.card{
+    background: none;
+    width: 100%;
+    box-shadow: 5px 5px 5px 2px  gray;
+}

@@ -1,0 +1,24 @@
+
+table {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: 2px solid lightgray;
+}
+button{
+    width: 80px;
+    height: 20px;
+    margin-top: 20px;
+    float: right;  
+    padding-bottom: 20px; 
+    background-color:darkgray ;
+    margin-right: 10px;
+    
+}
+.heading{
+    text-transform: uppercase;
+}
+.content{
+    padding-top: 150px;
+}

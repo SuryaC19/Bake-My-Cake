@@ -1,0 +1,18 @@
+h2{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 70px;
+}
+#login-form {
+    box-shadow: 5px 5px 5px 2px  gray;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 80px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+.submit{
+    height: 30px;
+    background-color:darkgrey;
+    margin-bottom: 20px;
+}

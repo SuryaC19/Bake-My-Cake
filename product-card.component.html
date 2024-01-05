@@ -1,0 +1,12 @@
+<mat-card class="product-card">
+    <img class="main-image" src="../../assets/images/{{product.imageUrl}}.jpg" alt="product image">
+    <mat-card-header>
+        <mat-card-title class="product-name"><strong>{{product.name}}</strong></mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+         <h5><strong>PRICE</strong> : ₹ {{product.price}}</h5>
+         <h5><strong>CATEGORY</strong> : {{product.category}}</h5>
+         <h5><strong>RATINGS</strong> : {{product.ratings}} <img class="rating-image" src="../../assets/images/rating.jpg" alt=""></h5>
+         <mat-icon routerLink="order-view/{{product.id}}"><span class="material-symbols-rounded">add_shopping_cart</span></mat-icon>
+    </mat-card-content>    
+</mat-card>

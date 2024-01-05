@@ -1,0 +1,10 @@
+<div class="filter-container">
+  <mat-label><strong>Filter : </strong></mat-label>
+  <mat-button-toggle-group [(ngModel)]="filterText">
+      <mat-button-toggle value="Cake" class="button" (click)="filterProduct()">Cake</mat-button-toggle>
+      <mat-button-toggle value="Brownie" class="button" (click)="filterProduct()">Brownie</mat-button-toggle>
+      <mat-button-toggle value="Chocolate" class="button" (click)="filterProduct()">Chocolate</mat-button-toggle>
+      <mat-button-toggle value="Cookies" class="button" (click)="filterProduct()">Cookies</mat-button-toggle>
+      <mat-button-toggle value="" class="button" (click)="filterProduct()">Clear</mat-button-toggle>
+    </mat-button-toggle-group>
+</div>
